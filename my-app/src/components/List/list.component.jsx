@@ -3,7 +3,7 @@ import { useQuery } from '@apllo/client';
 import createRows from './list..collection.utils';
 
 const AllCustomerList = () => {
-    const { data, loading, error } = useQuery();
+    const { data, loading, /*error*/ } = useQuery();
 
     if(loading) {return /*<Loader />*/}
 
