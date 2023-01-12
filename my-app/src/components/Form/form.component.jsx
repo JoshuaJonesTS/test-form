@@ -10,4 +10,12 @@ const CreateCustomerForm = () => {
         firstName: '',
         lastName: ''
     }
+
+    const onSubmit = (values) => {
+        const submitData = {firstName: values.firstName, lastName: values.lastName};
+
+        createCustomer({ variables: submitData })
+            .catch(err => {})
+            .then(response => {})
+    }
 }
