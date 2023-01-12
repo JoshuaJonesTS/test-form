@@ -27,7 +27,9 @@ const CreateCustomerForm = () => {
 
     return (
         <div>
-            
+            <form onSubmit={formik.handleSubmit}>
+                
+            </form>
         </div>
     );
 }
