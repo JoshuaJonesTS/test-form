@@ -44,6 +44,21 @@ const CreateCustomerForm = () => {
                         formik.touched.firstName && formik.errors.firstName
                     }
                 />
+                <Typography>Label text here</Typography>
+                <TextField 
+                    label="FirstName"
+                    variant="outlined"
+                    name={'firstName'}
+                    value={formik.values.firstName}
+                    onChange={formik.handleChange}
+                    error = {
+                        formik.touched.firstName && 
+                        Boolean(formik.errors.firstName)
+                    }
+                    helperText = {
+                        formik.touched.firstName && formik.errors.firstName
+                    }
+                />
             </form>
         </div>
     );
