@@ -5,7 +5,7 @@ import { useMutation } from '@apollo/client';
 import { Typography, /*AppBar,*/ Button, /*Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar, Container*/ } from '@mui/material';
 
 const CreateCustomerForm = () => {
-    const [createCustomer, {data, loading, error}] = useMutation();
+    const [createCustomer,/*{data, loading, error}*/] = useMutation();
 
     const initialValues = {
         firstName: '',
