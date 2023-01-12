@@ -5,7 +5,8 @@ import CreateCustomerForm from './components/Form/form.component';
 function App() {
   return (
     <div className="App">
-      <CreateCustomerForm/>
+      {/* <CreateCustomerForm/> */}
+      KLKLKLKLK
     </div>
   );
 }
