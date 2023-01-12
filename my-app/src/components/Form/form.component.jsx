@@ -59,6 +59,7 @@ const CreateCustomerForm = () => {
                         formik.touched.firstName && formik.errors.firstName
                     }
                 />
+                <Button size={'large'} variant={'contained'} type={'submit'}>Create Customer</Button>
             </form>
         </div>
     );
