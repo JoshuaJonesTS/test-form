@@ -11,4 +11,17 @@ const AllCustomerList = () => {
     if(data && data.allCustomers) {
         /*rows = [...createRows(data.allCustomers)];*/
     }
+
+    return (
+        <div>
+            {
+                rows.map(row => (
+                    <div key={row.id}>
+                        <div>{row.name}</div>
+                        <div>{row.age}</div>
+                    </div>
+                ))
+            }
+        </div>
+    );
 }
