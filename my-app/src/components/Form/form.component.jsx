@@ -5,4 +5,9 @@ import { useMutation } from '@apollo/client';
 
 const CreateCustomerForm = () => {
     const [createCustomer, {data, loading, error}] = useMutation();
+
+    const initialValues = {
+        firstName: '',
+        lastName: ''
+    }
 }
