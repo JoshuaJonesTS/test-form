@@ -25,3 +25,5 @@ const AllCustomerList = () => {
         </div>
     );
 }
+
+export default AllCustomerList;
