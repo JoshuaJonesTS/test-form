@@ -64,3 +64,5 @@ const CreateCustomerForm = () => {
         </div>
     );
 }
+
+export default CreateCustomerForm;
