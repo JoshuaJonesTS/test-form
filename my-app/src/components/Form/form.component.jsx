@@ -18,4 +18,10 @@ const CreateCustomerForm = () => {
             .catch(err => {})
             .then(response => {})
     }
+
+    const formik = useFormik({
+        initialValues,
+        validationSchema: /*validationSchema,*/
+        onSubmit
+    });
 }
